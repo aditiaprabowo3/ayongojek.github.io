@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+ul li {
+    padding: 0 15px;
+}
+ul li a{
+    font-weight: 500;
+    color: #000 !important;
+}
+
+.card-work:hover img{
+    transform: translateY(-20px);
+    transition: all.7s ease-out;
+}
+.card-features:hover {
+    box-shadow: 0 0 40px rgba(0,0,0,0.125) !important;
+    transition: all.7s ease;
+}
+.section-download .btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -30px !important;
+}
+.card-work {
+    margin: 90px 0;
+}
+.card-features{
+    margin: 20px 0;
+}
+.footer ul li{
+    list-style: none;
+    margin-left: -45px;
+    padding-bottom: 15px;
+}
+.footer ul li a{
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.8;
+}
+.footer h6{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.card-testimonial{
+    margin: 20px 0;
+}
+
+/* responsive break point */
+@media (min-width: 300px) { 
+    .section-banner .text-content h1{
+        font-size: 33px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner .text-content p{
+        font-size: 9px;
+        padding: 20px 0;
+        font-weight: 500;
+        opacity: 0.7;
+    }
+    .section-banner .text-content{
+        margin-top: 30px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .section-about .text-content p{
+        font-size: 10px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 999;
+    }
+    .section-about .text-content {
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid #00ab14;
+        top: 6px;
+        left: 6px;
+    }
+    .section-download .text-content h2{
+        font-size: 35px;
+    }
+    .section-download .text-content{
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .section-download .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-sponsor img{
+        width: 31%;
+        height: 31%;
+        margin: 10px 0px;
+    }
+    .navbar ul li .active::after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li a:hover:after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar .btn-1{
+        margin-top: 15px;
+    }
+    .navbar button {
+        display: block;
+    }
+ }
+/* // Medium devices (handphone, 400px and up) */
+@media (min-width: 400px) { 
+    .section-banner .text-content h1{
+        font-size: 32px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner .text-content p{
+        font-size: 12px;
+        padding: 20px 0;
+        font-weight: 500;
+        opacity: 0.7;
+    }
+    .section-banner .text-content{
+        margin-top: 30px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .section-about .text-content p{
+        font-size: 13px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 999;
+    }
+    .section-about .text-content {
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid #00ab14;
+        top: 6px;
+        left: 6px;
+    }
+    .section-download .text-content h2{
+        font-size: 40px;
+    }
+    .section-download .text-content{
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .section-download .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-sponsor img{
+        width: 29%;
+        height: 29%;
+        margin: 10px 0px;
+    }
+    .navbar ul li .active::after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li a:hover:after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar .btn-1{
+        margin-top: 15px;
+    }
+    .navbar button {
+        display: block;
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .section-banner .text-content h1{
+        font-size: 40px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner .text-content p{
+        font-size: 15px;
+        padding: 20px 0;
+        font-weight: 500;
+        opacity: 0.7;
+    }
+    .section-banner .text-content{
+        margin-top: 30px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .section-about .text-content p{
+        font-size: 15px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 9999;
+    }
+    .section-about .text-content {
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid #00ab14;
+        top: 26px;
+        left: 26px;
+    }
+    .section-download .text-content h2{
+        font-size: 55px;
+    }
+    .section-download .text-content{
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .section-download .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-sponsor img{
+        width: 29%;
+        height: 29%;
+        margin: 10px 10px;
+    }
+    .navbar ul li .active::after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li a:hover:after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar .btn-1{
+        margin-top: 15px;
+    }
+    .navbar button {
+        display: block;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .text-content h1{
+        font-size: 40px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner .text-content p{
+        font-size: 15px;
+        padding: 20px 0;
+        font-weight: 500;
+        opacity: 0.7;
+    }
+    .section-banner .text-content{
+        margin-top: 30px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .section-about .text-content p{
+        font-size: 15px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 9999;
+    }
+    .section-about .text-content {
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid #00ab14;
+        top: 26px;
+        left: 26px;
+    }
+    .section-download .text-content h2{
+        font-size: 55px;
+    }
+    .section-download .text-content{
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .section-download .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-sponsor img{
+        width: 25%;
+        height: 25%;
+        margin: 10px 10px;
+    }
+    .navbar ul li .active::after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li a:hover:after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar .btn-1{
+        margin-top: 15px;
+    }
+    .navbar button {
+        display: block;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .text-content h1{
+        font-size: 40px;
+    }
+    .section-banner .text-content p{
+        font-size: 15px;
+        padding: 20px 0;
+        font-weight: 500;
+        opacity: 0.7;
+    }
+    .section-banner .text-content{
+        margin-top: 30px;
+    }
+    .section-banner .img-content img{
+        width: 125%;
+        height: 125%;
+        margin-left: -50px;
+        margin-top: -30px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .section-about .text-content p{
+        font-size: 15px;
+    }
+    .section-about .img-content img {
+        width: 114%;
+        height: 114%;
+        position: relative;
+        z-index: 9999;
+    }
+    .section-about .text-content {
+        margin-top: 50px;
+        margin-left: 70px;
+        text-align: left;
+    }
+    .section-about .img-content .kotak{
+        width: 112%;
+        height: 100%;
+        border: 3px solid #00ab14;
+        top: 16px;
+        left: 26px;
+    }
+    .section-download .text-content h2{
+        font-size: 55px;
+    }
+    .section-download .text-content{
+        margin-top: 10px;
+        text-align: left;
+    }
+    .section-download .img-content img {
+        width: 90%;
+        height: 90%;
+    }
+    .section-sponsor img{
+        width: 19%;
+        height: 19%;
+        margin: 10px 20px;
+    }
+    .navbar ul li .active::after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .navbar ul li a:hover:after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .navbar .btn-1{
+        margin-top: 0px;
+    }
+    .navbar button {
+        display: none;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .text-content h1{
+        font-size: 45px;
+    }
+    .section-banner .text-content p{
+        font-size: 15px;
+        padding: 20px 0;
+        font-weight: 500;
+        opacity: 0.7;
+    }
+    .section-banner .text-content{
+        margin-top: 50px;
+    }
+    .section-banner .img-content img{
+        width: 112%;
+        height: 112%;
+        margin-left: -150px;
+        margin-top: -30px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        position: relative;
+    }
+    .section-about .text-content {
+        margin-top: 50px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid #00ab14;
+        top: 16px;
+        left: 16px;
+    }
+    .section-download .text-content h2{
+        font-size: 55px;
+    }
+    .section-download .text-content{
+        margin-top: 50px;
+        text-align: left;
+    }
+    .section-download .img-content img {
+        width: 70%;
+        height: 70%;
+    }
+    .section-sponsor img{
+        width: 15%;
+        height: 15%;
+        margin: 10px 25px;
+    }
+    .navbar ul li .active::after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .navbar ul li a:hover:after {
+        content: '';
+        border-bottom: 3px solid #00ab14;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .navbar .btn-1{
+        margin-top: 0px;
+    }
+    .navbar button {
+        display: none;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
